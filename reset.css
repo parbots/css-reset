@@ -19,6 +19,7 @@ html:focus-within {
 
 body {
     min-height: 100vh;
+
     line-height: 1.5;
     text-rendering: optimizeSpeed;
     -webkit-font-smoothing: antialiased;
@@ -29,8 +30,9 @@ picture,
 video,
 canvas,
 svg {
-    display: block;
     max-width: 100%;
+
+    display: block;
 }
 
 input,
